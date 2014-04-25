@@ -1,7 +1,7 @@
 biblatex-minimal
 ================
 
-Minimal example for using bibliographies. To compile execute
+[Minimal example](biblio.tex) for using bibliographies. To compile execute
 ```Shell
 pdflatex biblio
 biber biblio
