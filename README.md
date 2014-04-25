@@ -14,7 +14,7 @@ biber biblio
 ```
 
 I'd recommend a tool like (http://jabref.sourceforge.net) to edit
-the bibliographic database ([a relative link](bibliography.bib) in this case).
+the [bibliographic database](bibliography.bib).
 For more information read the documentation of biblatex or biber:
 ```Shell
 texdoc biblatex
