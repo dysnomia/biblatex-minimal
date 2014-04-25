@@ -1,0 +1,20 @@
+\documentclass{scrartcl}
+
+% support for links
+\usepackage{hyperref}
+
+% style determines the main format of the bibliography entries
+\usepackage[backend=biber,style=numeric,backref=true,url=false]{biblatex}
+
+% your bibliography
+\addbibresource{bibliography.bib}
+
+\begin{document}
+
+We can cite a single paper \cite{abraham12} or multiple 
+papers \cite{alon95,kelner13}. 
+
+% actually print the bibliography
+\printbibliography
+
+\end{document}
